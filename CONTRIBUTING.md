@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```sh
-$ npm install git+ssh://git@github.com:spi-tch/spitch-typescript.git
+$ npm install git+ssh://git@github.com:spi-tch/spitch-go.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```sh
 # Clone
-$ git clone https://www.github.com/spi-tch/spitch-typescript
-$ cd spitch-typescript
+$ git clone https://www.github.com/spi-tch/spitch-go
+$ cd spitch-go
 
 # With yarn
 $ yarn link
@@ -99,7 +99,7 @@ the changes aren't made through the automated pipeline, you may want to make rel
 
 ### Publish with a GitHub workflow
 
-You can release to package managers by using [the `Publish NPM` GitHub action](https://www.github.com/spi-tch/spitch-typescript/actions/workflows/publish-npm.yml). This requires a setup organization or repository secret to be set up.
+You can release to package managers by using [the `Publish NPM` GitHub action](https://www.github.com/spi-tch/spitch-go/actions/workflows/publish-npm.yml). This requires a setup organization or repository secret to be set up.
 
 ### Publish manually
 
